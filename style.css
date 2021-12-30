@@ -1,17 +1,33 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
 }
 
-main{
-    width: 100vw;
-    height: 100vh;
+article {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: medium;
+    border:5px solid black;
+    border-radius: 15px;
+    bottom: 5vh;
+    left: 5vw;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: 10vh;
+
     background-color: purple;
 }
 
 section {
-    width: 80%;
+    border:5px solid black;
+    border-radius: 15px;
+    top: 10vh;
+    position: relative;
+    align-items: center;
+    width: 40%;
     height: 500px;
     margin: 0 auto;
     background-color: red;
